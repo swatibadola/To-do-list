@@ -25,7 +25,7 @@ function TodoItem({ todo }) {
                 type="checkbox"
                 className="cursor-pointer"
                 checked={todo.complete}
-                onChange={toggleComplete}
+                onChange={toggleCompleted}
             />
             <input
                 type="text"
